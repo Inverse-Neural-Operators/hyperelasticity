@@ -1,0 +1,44 @@
+# ignore chache
+*__pycache__*
+
+# ignore venv
+*.venv*
+
+# ignore vscode settings
+*.vscode*
+
+# ignore image files
+*.jpg
+*.pdf
+# *.png
+*.gif
+# !plots/abstract.png
+
+# ignore data files
+*.txt
+*.h5
+*.pickle
+*.tar.gz
+*.vtu
+*.whl
+*.xdmf
+*.bp
+*.npz
+*.npy
+*.pkl
+*.pth
+*.db
+*.json
+*.csv
+
+# ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# mac
+*.DS_Store
+
+# windows
+*Zone.Identifier
+
